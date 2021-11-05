@@ -1,0 +1,234 @@
+void row1(){
+    int i, j, k;
+    for ( i = 0; i < thick; i++)
+    {
+        if (mode == 1)
+        {
+            for ( j = 0; j < 3 * thick; j++)
+            {
+                printf(" ");
+            }
+            for ( j = 0; j < 2 * thick; j++)
+            {
+                printf(" ");
+            }
+            for ( j = 0; j < thick; j++)
+            {
+                printf("H");
+            }
+            for ( j = 0; j < 3 * thick; j++)
+            {
+                printf(" ");
+            }
+            for ( j = 0; j < thick; j++)
+            {
+                printf("H");
+            }
+            for ( j = 0; j < 3 * thick; j++)
+            {
+                printf(" ");
+            }
+            for ( j = 0; j < thick; j++)
+            {
+                printf("H");
+            }
+            for ( j = 0; j < thick; j++)
+            {
+                printf(" ");
+            }
+        }
+        else
+        {
+            for ( j = 0; j < thick; j++)
+            {
+                printf(" ");
+            }
+            for ( j = 0; j < thick; j++)
+            {
+                printf("H");
+            }
+            for ( j = 0; j < thick; j++)
+            {
+                printf(" ");
+            }
+            for ( j = 0; j < thick; j++)
+            {
+                printf(" ");
+            }
+            for ( j = 0; j < thick; j++)
+            {
+                printf(" ");
+            }
+            for ( j = 0; j < thick; j++)
+            {
+                printf("H");
+            }
+            for ( j = 0; j < thick; j++)
+            {
+                printf(" ");
+            }
+        }
+        for ( k = 0; k < many; k++)
+        {
+            for ( j = 0; j < thick; j++)
+            {
+                printf(" ");
+            }
+            if (lenword[k] == 1)
+            {
+                for ( j = 0; j < 2 * thick; j++)
+                {
+                    printf(" ");
+                }
+                for ( j = 0; j < thick; j++)
+                {
+                    printf("H");
+                }
+            }
+            if (lenword[k] == 2 || lenword[k] == 0 || lenword[k] == 3 || lenword[k] == 5 || lenword[k] == 6 || lenword[k] == 8 || lenword[k] == 9)
+            {
+                for ( j = 0; j < thick; j++)
+                {
+                    printf(" ");
+                }
+                for ( j = 0; j < thick; j++)
+                {
+                    printf("H");
+                }
+                for ( j = 0; j < thick; j++)
+                {
+                    printf(" ");
+                }
+            }
+            if (lenword[k] == 4)
+            {
+                for ( j = 0; j < thick; j++)
+                {
+                    printf("H");
+                }
+                for ( j = 0; j < thick; j++)
+                {
+                    printf(" ");
+                }
+                for ( j = 0; j < thick; j++)
+                {
+                    printf("H");
+                }
+            }
+            if (lenword[k] == 7)
+            {
+                for ( j = 0; j < 2 * thick; j++)
+                {
+                    printf("H");
+                }
+                for ( j = 0; j < thick; j++)
+                {
+                    printf(" ");
+                }
+            }
+        }
+            printf("\n");
+    }
+}
+
+void row2(){
+    int i, j, k;
+    for ( i = 0; i < thick; i++)
+    {
+        if (mode == 1)
+        {
+            for ( j = 0; j < thick; j++)
+            {
+                printf(" ");
+            }
+            for ( j = 0; j < thick; j++)
+            {
+                printf("H");
+            }
+            for ( j = 0; j < thick; j++)
+            {
+                printf(" ");
+            }
+            for ( j = 0; j < thick; j++)
+            {
+                printf(" ");
+            }
+            for ( j = 0; j < thick; j++)
+            {
+                printf("H");
+            }
+            for ( j = 0; j < thick; j++)
+            {
+                printf(" ");
+            }
+            for ( j = 0; j < thick; j++)
+            {
+                printf(" ");
+            }
+            for ( j = 0; j < thick; j++)
+            {
+                printf(" ");
+            }
+            for ( j = 0; j < thick; j++)
+            {
+                printf(" ");
+            }
+            for ( j = 0; j < thick; j++)
+            {
+                printf(" ");
+            }
+            for ( j = 0; j < thick; j++)
+            {
+                printf("H");
+            }
+            for ( j = 0; j < thick; j++)
+            {
+                printf(" ");
+            }
+            for ( j = 0; j < thick; j++)
+            {
+                printf("H");
+            }
+            for ( j = 0; j < thick; j++)
+            {
+                printf(" ");
+            }
+            for ( j = 0; j < thick; j++)
+            {
+                printf("H");
+            }
+        }
+        else
+        {
+            for ( j = 0; j < thick; j++)
+            {
+                printf("H");
+            }
+            for ( j = 0; j < thick; j++)
+            {
+                printf(" ");
+            }
+            for ( j = 0; j < thick; j++)
+            {
+                printf("H");
+            }
+            for ( j = 0; j < thick; j++)
+            {
+                printf(" ");
+            }
+            for ( j = 0; j < thick; j++)
+            {
+                printf("H");
+            }
+            for ( j = 0; j < thick; j++)
+            {
+                printf(" ");
+            }
+            for ( j = 0; j < thick; j++)
+            {
+                printf("H");
+            }
+        }
+        printf("\n");
+    }
+}

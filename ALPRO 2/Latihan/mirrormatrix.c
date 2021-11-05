@@ -1,0 +1,51 @@
+#include <stdio.h>
+
+int main(){
+    int i, j;
+    int row, column;
+    int matrix[100][100];
+
+    printf("baris : ");
+    scanf("%d", &row);
+    printf("kolom : ");
+    scanf("%d", &column);
+
+    for ( i = 0; i < row; i++)
+    {
+        for ( j = 0; j < column; j++)
+        {
+            scanf("%d", &matrix[i][j]);
+        }
+    }
+
+    for ( i = row-1; i >= 0; i--)
+    {
+        for ( j = 0; j < column; j++)
+        {
+            printf("%d", matrix[i][j]);
+            if (j != column-1)
+            {
+                if (matrix[i][j] < 10)
+                {
+                    printf("    ");
+                }
+                else if (matrix[i][j]>9 && matrix[i][j] < 100)
+                {
+                    printf("   ");
+                }
+                else if (matrix[i][j]>99 && matrix[i][j]<1000)
+                {
+                    printf("  ");
+                }
+                else if (matrix[i][j]>999 && matrix[i][j]<10000);
+                {
+                    printf(" ");
+                }
+            }
+        }
+        printf("\n");
+    }
+    
+
+    return 0;
+}

@@ -1,0 +1,1 @@
+gcc KBPW20.c -o KBPW20.exe && KBPW20.exe

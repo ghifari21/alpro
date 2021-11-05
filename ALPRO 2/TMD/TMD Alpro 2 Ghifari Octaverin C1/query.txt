@@ -1,0 +1,28 @@
+FORMAT TABLE
+- tproduct  : Kode_Produk Nama_Produk Stok_Produk Kode_Brand
+- tbrand    : Kode_Brand Nama_Brand Nama_Distributor No_Telepon
+
+FORMAT INPUT
+- INSERT (UPDATE) nama_tabel primary_key input1 input2 input3;
+- UPDATE nama_tabel primary_key input1 input2 input3;
+- DELETE nama_tabel primary_key;
+- SELECT nama_tabel1 (nama_tabel2);
+
+CORRECT TEST CASE
+- INSERT tproduct P006 X570-F 4 B003;
+- INSERT UPDATE tproduct P001 GTX1060 1 B001;
+- UPDATE tbrand B003 ASUS Astrindo_Senayasa 021-4167417;
+- DELETE tproduct P002;
+- SELECT tbrand;
+- SELECT tbrand tproduct;
+
+WRONG TEST CASE
+- INSERT tproduk P009 GT1030 10 B001;
+- INSERT tbrand B006 WESTERN_DIGITAL ETERNAL_ASIA_INDONESIA 021-6009863 Jakarta;
+- INSERT UPDATE tproduct P010 GTX1060 4 B001;
+- UPDATE tbrand B007 GIGABYTE NJT 0814748414;
+- DELETE tproduct P010;
+- SELECT tproduk;
+- SELECT tbrand tproduk;
+
+*NOTE : yang didalam kurung adalah optional
